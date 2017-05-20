@@ -1,0 +1,9 @@
+version: '2'
+catalog:
+  questions:
+   - variable: "mysql_root_password"
+     description: "Mysql root password"
+     label: "Password:"	
+     required: true
+     default: "root"
+     type: "string"
