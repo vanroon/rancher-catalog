@@ -1,3 +1,4 @@
+version: '2'
 .catalog:
   name: "MySQL for Segura"
   version: : "0.1"
@@ -8,3 +9,7 @@
      required: true
      default: "root"
      type: "string"
+services:
+#MySQl#
+  mysql:
+    scale: 1
