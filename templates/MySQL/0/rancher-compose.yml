@@ -1,7 +1,4 @@
-version: '2'
 .catalog:
-  name: "MySQL for Segura"
-  version: : "0.1"
   questions:
    - variable: "mysql_root_password"
      description: "Mysql root password"
